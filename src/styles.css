@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(151, 151, 226);
+  padding: 10px 0px;
+  border-radius: 10px;
+  max-width: 250px;
+  margin: auto;
+  height: max-content;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3px;
+  padding: 15px;
+  max-width: 170px;
+  overflow: hidden;
+  margin: auto;
+}
+.buttonx {
+  height: 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.operator:hover {
+  background-color: rgb(212, 25, 25);
+  color: white;
+}
+
+.buttonx:hover {
+  background-color: rgb(124, 121, 121);
+}
+
+input {
+  height: 70px;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 15px;
+}
+
+.specialoperator {
+  padding: 15px;
+  text-align: center;
+}
+.specialoperator .operator {
+  margin-left: auto;
+}
+.operator {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.screen {
+  margin: auto;
+}
